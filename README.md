@@ -6,4 +6,4 @@ Per-FedAvg
 
 对比实验:PerFedAvg与FedAvg使用在数据非独立同分布情况下的表现对比实验
 -----
-https://www.kaggle.com/code/yyhouo/last-dance
+https://www.kaggle.com/code/yyhouo/per-fedavg
