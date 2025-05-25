@@ -1,5 +1,9 @@
-# Per-FedAvg
+Per-FedAvg
+========
 #联邦学习作为一种保护数据隐私的分布式机器学习范式，在数据安全日益重要的当下发挥着关键作用。然而在实际应用中，数据异构问题已成为联邦学习面临的主要挑战之一，对模型性能造成了严重影响。元学习凭借其“学会学习”的独特优势，能够使模型在小样本学习场景中取得优异表现。基于此，本文重点研究了基于元学习的联邦学习算法在数据异构环境下的性能表现，并通过实验验证了两种基于元学习的个性化联邦学习算法（Per-FedAvg (FO)和Per-FedAvg (HF)）的有效性。本文分别基于CIFAR-10和MNIST数据集，创建了不同异构程度的模拟环境，从全局模型准确率、个性化模型准确率和个性化增益这三个方面对算法进行比较，找出数据异构程度与算法表现之间的关系：异构度越高，全局模型效果越差，但个性化增益越大。研究结果表明，在资源充足的场景下，应优先采用Per-FedAvg (HF)；在资源有限的场景下，低复杂度算法配合个性化策略或许更划算，这给实际部署联邦学习系统提供了重要参考。
+
 #Federated learning, as a privacy-preserving distributed machine learning paradigm, plays a crucial role in today's increasingly important data security landscape. However, in practical applications, data heterogeneity has become one of the major challenges facing federated learning, severely impacting model performance. Meta-learning, with its unique advantage of "learning to learn," enables models to achieve excellent performance in few-shot learning scenarios. Based on this, this thesis focuses on studying the performance of meta-learning-based federated learning algorithms in data heterogeneous environments, and experimentally validates the effectiveness of two meta-learning-based personalized federated learning algorithms (Per-FedAvg (FO) and Per-FedAvg (HF)). This paper creates simulation environments with different degrees of heterogeneity based on CIFAR-10 and MNIST datasets respectively, and compares the algorithms from three aspects: global model accuracy, personalized model accuracy, and personalization gain, to identify the relationship between data heterogeneity degree and algorithm performance: the higher the heterogeneity, the worse the global model performance, but the greater the personalization gain. The research results indicate that in resource-abundant scenarios, Per-FedAvg (HF) should be prioritized; in resource-constrained scenarios, low-complexity algorithms combined with personalization strategies may be more cost-effective, providing important reference for practical deployment of federated learning systems.
-#对比实验:PerFedAvg与FedAvg使用在数据非独立同分布情况下的表现对比实验
+
+对比实验:PerFedAvg与FedAvg使用在数据非独立同分布情况下的表现对比实验
+-----
 #https://www.kaggle.com/code/yyhouo/last-dance
